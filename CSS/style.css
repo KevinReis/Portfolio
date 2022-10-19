@@ -394,31 +394,11 @@ h3.my-profession {
     margin-top: 10px;
 
 }
-.about .about-content .skills {
-    flex: 0 0 40%;
-    max-width: 40%;
-    margin-top: 40px;
-}
 
-.about .about-content .skills .skill-item {
-    flex: 0 0 100%;
-    max-width: 100%;
-}
-
-.about .about-content .skills .skill-item  {
-    margin-bottom: -25px;
-}
-
-.about .about-content .skills .skill-item h5 {
-    line-height: 40px;
-    font-weight: 600;
-    font-size: 16px;
-    color: var(--text-black-900);
-    text-transform: capitalize;
-}
 
 .about .about-content .education,
 .about .about-content .experience 
+.about .about-content .Skills
 {
     flex: 0 0 50%;
     max-width: 50%;
@@ -431,6 +411,7 @@ h3.my-profession {
     margin-bottom: 30px;
     font-weight: 700;
     color: var(--text-black-900);
+    margin-top: 15px;
 }
 
 .about .about-content .timeline-box {
